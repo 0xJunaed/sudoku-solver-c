@@ -1,5 +1,20 @@
-# Sudoku Backtracking Solver
-* A C program that solves a 9x9 Sudoku puzzle using the backtracking algorithm.
-* Features:Recursive backtracking solver for any solvable 9x9 grid.
-* Validation logic to check rows, columns, and 3x3 sub-grids.
-* Formatted CLI output for the puzzle grid[cite: 2].
+# 🧩 Sudoku Backtracking Solver
+
+A lightweight C program that automatically solves any valid 9x9 Sudoku puzzle using a recursive backtracking algorithm[cite: 2].
+
+## ✨ Features
+* **Recursive Backtracking Solver:** Efficiently explores paths to solve standard 9x9 grids[cite: 2].
+* **Strict Validation Logic:** Multi-layered checks across rows, columns, and 3x3 sub-grids before numerical placement[cite: 2].
+* **Formatted CLI Output:** Clean ASCII-art terminal grid display for clear visualization[cite: 2].
+
+## 💻 How to Run
+
+### Prerequisites
+You need a C compiler (like GCC) installed on your system.
+
+### Compilation & Execution
+1. Clone the repository or download `main.c`[cite: 2].
+2. Open your terminal and navigate to the directory.
+3. Compile the code:
+```bash
+   gcc main.c -o sudoku
