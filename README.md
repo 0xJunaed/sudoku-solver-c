@@ -13,8 +13,8 @@ A lightweight C program that automatically solves any valid 9x9 Sudoku puzzle us
 You need a C compiler (like GCC) installed on your system.
 
 ### Compilation & Execution
-1. Clone the repository or download `main.c`[cite: 2].
+1. Clone the repository or download `Suddoku.c`[cite: 2].
 2. Open your terminal and navigate to the directory.
 3. Compile the code:
 ```bash
-   gcc main.c -o sudoku
+   gcc Suddoku.c -o sudoku
